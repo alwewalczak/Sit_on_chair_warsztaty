@@ -1,0 +1,31 @@
+section.box_offer {
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+div.offer {
+    float: left;
+    width: 330px;
+    height: 225px;
+    box-sizing: border-box;
+}
+
+div.text_offer {
+    border: 1px solid lightgrey;
+    padding: 10px 22px;
+    height: 260px;
+}
+
+div.text_offer p.description {
+    box-sizing: border-box;
+    padding: 10px 0;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 300;
+    color: #666;
+}
+
+.offer.text_offer .belt_up p {
+    margin-top: 20px;
+}

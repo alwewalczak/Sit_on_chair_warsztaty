@@ -1,0 +1,83 @@
+.form_left {
+    width: 60%;
+    float: left;
+}
+
+.form_right {
+    width: 40%;
+    float: right;
+    margin-top: -15px;
+}
+
+#contact .belt {
+    color: #666;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 35px 0 35px;
+}
+
+.image_form_one {
+    background-image: url("../images/red_chair.png");
+    width: 60%;
+    height: 210px;
+    background-repeat: no-repeat;
+
+}
+
+input, textarea {
+    border: 1px solid #27c7ab;
+    width: 80%;
+    height: 65px;
+    margin-bottom: 27px;
+    color: rgba(113, 113, 113, 0.5);
+    font-size: 27px;
+    font-weight: 200;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+textarea.height {
+    height: 190px;
+}
+
+.form_right label input {
+    background: white;
+    -webkit-appearance: none;
+    border: 1px solid #27c7ab;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.form_right label input[type="checkbox"]:checked {
+    background-image: url("../images/form_ok.jpg");
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+}
+
+
+.form_right label p {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+    width: 290px;
+    margin-left: 10px;
+    }
+
+.form_right input[type="submit"] {
+    display: block;
+    width: 340px;
+    height: 70px;
+    border-radius: 5px;
+    background-color: #27c7ab;
+    color: white;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+    margin: 34px 0;
+}

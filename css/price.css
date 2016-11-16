@@ -1,0 +1,142 @@
+section#price {
+    width: 100%;
+    height: 720px;
+    background-color: rgba(220,220,220, 0.3);
+    margin-top: 58px;
+}
+
+#price .container p.belt.uppercase {
+    color: #666;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 50px;
+
+}
+
+.price_box {
+    border: 2px solid lightgrey;
+    width: 330px;
+    height: 500px;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.big_circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    margin: -38px auto;
+    border: 2px solid lightgrey;
+
+}
+
+.small_circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: lightgrey;
+    position: absolute;
+    margin: 15px;
+}
+
+.price_box h3 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    color: #27c7ab;
+    text-transform: uppercase;
+
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+    margin: 20px auto;
+    background: white;
+}
+
+.circle p {
+    font-size: 20px;
+    color: lightgrey;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 28px;
+
+}
+
+span.price {
+    font-size: 50px;
+    font-weight: bold;
+    display: block;
+}
+
+span.price sup {
+    font-size: 19px;
+    position: relative;
+    top: -12px;
+}
+
+ul.price_list li {
+    list-style-type: none;
+    text-align: center;
+    color: grey;
+
+}
+
+ul.price_list li:nth-child(2n+1) {
+    background: rgba(230,230,230,0.9);
+    padding: 10px;
+}
+
+ul.price_list li:nth-child(2n+2) {
+    background: #ededed;
+    padding: 10px;
+}
+
+a.button_price {
+    width: 120px;
+    height: 33px;
+    display: block;
+    background: #27c7ab;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    line-height: 33px;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -60px;
+
+}
+
+.price_box:hover {
+    background-color: #27c7ab;
+    border: 2px solid #27c7ab;
+}
+.price_box:hover .big_circle {
+    background-color: #27c7ab;
+    border-color: #27c7ab;
+}
+.price_box:hover .small_circle{
+    background-color:white;
+}
+.price_box:hover h3 {
+    color: white;
+}
+.price_box:hover .circle p {
+    color: #27c7ab;
+}
+.price_box:hover ul.price_list li:nth-child(2n+1) {
+    background-color: white;
+}
+.price_box:hover a.button_price {
+    background-color: white;
+    color: #27c7ab;
+}

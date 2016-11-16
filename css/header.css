@@ -1,0 +1,36 @@
+header {
+    background-color: black;
+    color: lightgrey;
+}
+
+.header {
+    height: 40px;
+}
+
+
+.header_logo {
+    color: lightgrey;
+    font-weight: bold;
+    text-transform: uppercase;
+    word-spacing: 3px;
+}
+
+.header_logo,.header_menu {
+    position: absolute;
+    line-height: 40px;
+    font-size: 15px;
+}
+
+.header_menu {
+    right: 0;
+}
+
+.header_menu li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.header_menu li:nth-child(2n+2) {
+    margin: 0px 50px;
+}

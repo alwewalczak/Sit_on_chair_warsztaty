@@ -1,0 +1,38 @@
+body, input, textarea {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.middle {
+    margin: 0 30px 0;
+}
+
+div.image_one {
+    background-image: url("../images/box1_img.jpg");
+    background-repeat: no-repeat;
+
+
+}
+
+div.image_two {
+    background-image: url("../images/box2_img.jpg");
+    background-repeat: no-repeat;
+
+
+}
+
+div.transparent.belt_down p {
+    border-bottom: 5px solid #66CDAA;
+    width: 165px;
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+div.belt_up {
+    border-bottom: 5px solid #66CDAA;
+    width: 165px;
+    font-weight: 600;
+    font-size: 16px;
+}
